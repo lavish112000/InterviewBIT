@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+backend/venv/
+frontend/node_modules/
+
+# Build outputs
+.next/
+out/
+build/
+dist/
+__pycache__/
+*.pyc
+
+# Database
+*.db
+backend/*.db
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDEs
+.vscode/
+.idea/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Project Specific
+LeetCode-Questions-CompanyWise-master/
